@@ -34,7 +34,7 @@ A Model Context Protocol (MCP) server that provides log similarity search capabi
 cd lograg
 
 # Install dependencies with uv
-uv install
+uv sync
 
 # Copy environment file
 cp .env.example .env
@@ -139,7 +139,7 @@ Perform clustering analysis on stored logs.
 
 ```bash
 # Install with dev dependencies
-uv install --group dev
+uv sync --dev
 
 # Run tests
 uv run pytest
