@@ -1,108 +1,110 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
 
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
+# TypeScript
+*.tsbuildinfo
 dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+build/
 
-# PyInstaller
-*.manifest
-*.spec
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-cover/
+# OS
+.DS_Store
+Thumbs.db
 
-# Translations
-*.mo
-*.pot
-
-# Django stuff:
+# Logs
+logs/
 *.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
 
-# Flask stuff:
-instance/
-.webassets-cache
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
 
-# Scrapy stuff:
-.scrapy
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
 
-# Sphinx documentation
-docs/_build/
+# nyc test coverage
+.nyc_output/
 
-# PyBuilder
-.pybuilder/
-target/
+# Dependency directories
+jspm_packages/
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# Optional npm cache directory
+.npm
 
-# IPython
-profile_default/
-ipython_config.py
+# Optional eslint cache
+.eslintcache
 
-# pyenv
-.python-version
+# Optional stylelint cache
+.stylelintcache
 
-# pipenv
-Pipfile.lock
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
 
-# poetry
-poetry.lock
+# Optional REPL history
+.node_repl_history
 
-# pdm
-.pdm.toml
+# Output of 'npm pack'
+*.tgz
 
-# PEP 582
-__pypackages__/
+# Yarn Integrity file
+.yarn-integrity
 
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
 
-# SageMath parsed files
-*.sage.py
+# Next.js build output
+.next
 
-# Environments
+# Nuxt.js build / generate output
+.nuxt
+
+# Gatsby files
+.cache/
+public
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# ChromaDB data
+data/
+vector_db/
+*.db
 .env
 .venv
 env/
